@@ -56,9 +56,11 @@ a {
 }
 
 /** Remove the outline on focused links when they are also active or hovered in all browsers (opinionated). */
+/** text-decoration property is used to remove underlines from links */
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: none;
 }
 
 /** Modify default styling of address. */
